@@ -1,2 +1,2 @@
 # LJ_POS_SYSTEM
-Web-based point of sale using Laravel Framework
+Web-based point of sale HTML/CSS/Bootstrap and JS
