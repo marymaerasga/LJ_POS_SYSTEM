@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LJ POS</title>
+    <!--- Bootstrap CSS -->
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <!--- Styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6fa6ee6fa5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--- Header -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">
+            <img src="images/logo.png" alt="Logo" width="50" height="50">
+            LJ POS SYSTEM
+          </a>
+          <!---button navbar toggler-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+           <!---navbar collapse-->
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-2 mt-1">
+                <form class="d-flex" role="search">
+                  <div class="input-group">
+                    <input class="form-control border rounded-pill" type="search"  placeholder = "Search product" id="example-search-input">
+                </div>
+               </form>
+              </li>
+              <li class="nav-item dropdown ms-2 mt-1">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>All</option>
+                  <option value="1">Helmet</option>
+                  <option value="2">Accesories</option>
+                  <option value="3">Others</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li>
+                <button class="btn" style="border:none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--- Product list display  -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 15rem; height: 16rem">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 15rem; height: 16rem">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 15rem; height: 16rem">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 15rem; height: 16rem">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- JQuery -->
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <!--- Popper JS -->
+    <script src="lib/popper.min.js"></script>
+    <!--- Bootstrap JS -->
+    <script src="lib/js/bootstrap.min.js"></script>
+    <!--- JS -->
+    <script src="js/app.js"></script>
+  </body>
